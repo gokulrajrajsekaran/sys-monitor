@@ -1,0 +1,268 @@
+----Wed Aug 20 08:45:01 UTC 2025----
+ls /home
+cd
+ls /home
+clear
+exit
+cd
+exit
+cd
+ls /home
+history
+cd
+cd
+pwd
+cd
+pwd
+wsl --set-default-user gokul_1370
+sudo nano /etc/systemd/logind.conf
+pwd
+exit
+cd
+sudo nano /etc/systemd/logind.conf
+sudo systemctl restart systemd-logind
+usermod -aG sudo gokul_1370
+su -
+exit
+cd
+pwd
+sudo whomi
+sudo whoami
+pwd
+hostname
+whoami
+pwd
+cd
+pwd
+ls
+vi write.txt
+ls
+cat write.txt
+mkdir newone
+ls
+cp write.txt newone
+cat newone
+cp write.txt
+cat write.txt
+vi new1
+cat new1
+ls
+ls newone
+touch text2.txt
+ls
+cp write.txt text2.txt
+cat text2.txt
+mv text2.txt newone
+cat newone
+pwd
+cd newone
+pwd
+ls text2.txt 
+ls
+cat write.txt
+mv write.txt right.txt
+cat right.txt
+cat write.txt
+cd 
+cd downloads
+exit
+cd
+pwd
+cp /mnt/C/Users/gokulraj.rajsekaran/Downloads/convertedpem ~/
+history
+exit
+cd
+pwd
+ls
+cd convertedpm
+cd convertedpem
+ls
+cd convertedpem
+ls
+ls convertedpem 
+pwd
+ls
+chmod 400 convertedpem
+ssh -i convertedpem ec2-user@13.49.64.13
+ssh-keygen -t rsa -b 4096 -C "auto@aws"
+ls
+mkdir .ssh
+cd .ssh
+ls
+cd ..
+ssh -i covertedpem ec2-user@13.49.64.13
+ssh -i convertedpem ec2-user@13.49.64.13
+ssh ec2-user@13.49.64.13
+vi text.txt
+cat text.txt
+vi script.sh
+chomd +x script.sh
+chmod +x script.sh
+./script.sh text.txt 
+./script.sh text.txt 2
+cat script.sh
+vi script.sh
+./script.sh text.txt 
+vi scrpit.sh
+vi script.sh
+./script.sh text.txt 
+vi script.sh
+./script.sh text.txt 
+vi script.sh
+./script.sh text.txt 
+vi script.sh
+./script.sh text.txt 
+vi script.sh
+history
+cd
+ped
+pwd
+history 
+ctrl+R
+free -g
+du -h
+df -ah
+du -ah
+uname -a
+xming
+ping
+awk '{print 1}' text.txt
+cat text.txt
+awk '{print $1}' text.txt
+vi for.sh
+./for.sh
+chmod 777 for.sh
+./for.sh
+vi for.sh
+cd
+ls
+cat text.txt
+cat write.txt
+cat script.sh
+./script.sh text.txt 2
+./script.sh text.txt
+./script.sh text.txt 3
+./script.sh text.txt -1
+vi script.sh
+./script.sh text.txt 2
+vi script.sh
+./script.sh text.txt 2
+vi script.sh
+./script.sh text.txt 2
+clear
+cd
+history
+clear
+history
+cd 
+mkdir sys-monitor
+cd sys-monitor
+git init
+git remote add origin git@github.com:gokulrajrajsekaran/sys-monitor.git
+vi monitor.sh
+cat monitor.sh
+chmod +x monitor.sh
+crontab -e
+ps -aux
+cat monitor.sh
+grep cron /var/log/syslog
+grep cron /var/log/cron
+sudo grep cron /var/log/syslog
+tail -f /home/gokul_1370/sys-monitor/cron_test.log
+tail -f /home/gokul_1370/sys-monitor/monitor.sh
+clear
+cd
+ls
+cd sys-monitor
+ls
+git init
+git remote -v
+nano monitor1.sh
+chmod +x monitor.sh
+cat monitor1.sh
+crontab -e
+cat crontab
+cat crontab -e
+chmod +x /home/gokul_1370/sys-monitor/monitor1.sh
+/home/gokul_1370/sys-monitor/monitor1.sh
+ls -l ~/.ssh/id_ed25519 ~/.ssh/id_rsa
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+touch history.log system.log
+git add monitor1.sh history.loh system.log 
+git add monitor1.sh history.log system.log 
+git commit -m "Initial monitoring script"
+git branch -M main
+git remote add origin git@github.com:gokulrajrajsekaran/sys-monitor.git
+git push -u origin main
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:gokulrajrajsekaran/sys-monitor.git
+git branch -M main
+git push -u origin main
+git remote -v
+git remote add origin git@github.com:gokulrajrajsekaran/sys-monitor.git
+git branch -M main
+git push -u origin main
+crontab -e
+Every 5 minutes /home/gokul_1370/sys-monitor/monitor1.sh
+/home/gokul_1370/sys-monitor/monitor1.sh
+crontab -l
+crontab -e
+crontab -l
+ps -ef | grep cron
+tail -f /home/gokul_1370/sys-monitor/cron.log
+ps -ef | grep cron
+history
+ps -ef | grep cron
+tail -f /home/gokul_1370/sys-monitor/cron.log
+cat /home/gokul_1370/sys-monitor/cron.log
+git push origin master
+git branch
+git push origin main
+nano /home/gokul_1370/sys-monitor/monitor1.sh
+chmod +x /home/gokul_1370/sys-monitor/monitor1.sh
+crontab -e
+tail -n 20 /home/gokul_1370/sys-monitor/cron.log
+/usr/bin/git push origin main
+tail -f /home/gokul_1370/sys-monitor/cron.log
+ps -ef | grep cron
+tail -f /home/gokul_1370/sys-monitor/cron.log
+tail -f /home/gokul_1370/sys-monitor
+ps -ef | grep cron
+ls
+cat cron.log
+ps -ef | grep cron
+ls
+tail -f /home/gokul_1370/sys-monitor/report.txt
+tail -10 /home/gokul_1370/sys-monitor/report.txt
+tail -f /home/gokul_1370/sys-monitor/report.txt
+ps -ef | grep report
+kill -9  5350
+ps -ef | grep report.txt
+ps -ef | grep cron
+crontab -l
+crontab -e
+crontab -l
+history
+exit
+cd
+history
+ls
+cat text.txt
+cat write.txt
+cat script.sh
+sh ./script.sh text.txt 2
+cd sys-monitor
+ls
+crontab -e
+ps -ef | grep cron
+ps -ef | grep report.txt
+tail -f /home/gokul_1370/sys-monitor/report.txt
+crontab -e
+cd
+ls
+sudo bash
+exit

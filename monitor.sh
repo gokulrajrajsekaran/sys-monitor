@@ -2,18 +2,23 @@
 
 TIMESTAMP=$(date)
 
-echo -e "----$TIMESTAMP----" > ~/sys_monitor/history.log
-cat ~/.bash_history >> ~/sys_monitor/history.log
+LOG_DIR=/home/gokul_1370/sys-monitor
 
+# Save command history
+echo -e "----$TIMESTAMP----" > $LOG_DIR/history.log
+cat ~/.bash_history >> $LOG_DIR/history.log
 
-echo -e "\n----$TIMESTAMP----" >> ~/sys_monitor/report.log
-echo -e "Memory Usage(MB):" >> ~/sys_monitor/report.log
-free -m >> ~/sys_monitor/report.log
-echo -e "\nCPU usage (Top 5 Processes):" >> ~/sys_monitor/report.log
-top -b -n1 | head -n 10 >>  ~/sys_monitor/report.log
+# Save CPU & memory usage
+echo -e "\n----$TIMESTAMP----" >> $LOG_DIR/report.txt
+echo -e "Memory Usage (MB):" >> $LOG_DIR/report.txt
+/usr/bin/free -m >> $LOG_DIR/report.txt
+echo -e "\nCPU usage (Top 5 Processes):" >> $LOG_DIR/report.txt
+/usr/bin/top -b -n1 | head -n 10 >>  $LOG_DIR/report.txt
 
-cd ~/sys_monitor
-git add .
-git commit -m "Reports Updated at: $TIMESTAMP"
-git push origin main
+# Push to GitHub
+cd $LOG_DIR
+/usr/bin/git add .
+/usr/bin/git commit -m "Reports Updated at: $TIMESTAMP"
+/usr/bin/git push origin main
+
 
